@@ -6,8 +6,8 @@ import java.util.LinkedList;
 public class Main {
 
 	public static void main(String[] args) {
-		ArrayList listArray = new ArrayList<>();
-		LinkedList listaLinked = new LinkedList<>();
+		ArrayList listArray = new ArrayList();
+		LinkedList listaLinked = new LinkedList();
 		System.out.println("Por Defecto\n");
 
 		long tempsInicial1 = System.nanoTime();
@@ -100,28 +100,28 @@ public class Main {
 
 		/*
 		 * Exercici 2. Quina estructura de dades utilitzaries per cada un dels
-		 * següents casos? -
+		 * segï¿½ents casos? -
 		 *
 		 * Una llista amb molts elements en la que es
 		 * realitzen moltes insercions i aquestes es produeixen sempre per
-		 * posició absoluta. 
+		 * posiciï¿½ absoluta. 
 		 * 
 		 * linkedlist
 		 * 
 		 * - Una llista en la que es volen eliminar elements
-		 * sempre en comparació un altre element donat 
+		 * sempre en comparaciï¿½ un altre element donat 
 		 * 
 		 * linkedlist
 		 * 
-		 * - Una llista en la què
-		 * constanment accedirem als elements per posició absoluta.
+		 * - Una llista en la quï¿½
+		 * constanment accedirem als elements per posiciï¿½ absoluta.
 		 * 
 		 * ArrayList
 		 * 
-		 * Exercici 3. - Ocupen més espai d'emmagatzematge les llistes que els
-		 * vectors de la mateixa mida? - Perquè no necessitem iteradors pel
+		 * Exercici 3. - Ocupen mï¿½s espai d'emmagatzematge les llistes que els
+		 * vectors de la mateixa mida? - Perquï¿½ no necessitem iteradors pel
 		 * vectors?
-		 * El vector no necesita iterator porque el que se agrega y se extraer el último siempre (LIFO)
+		 * El vector no necesita iterator porque el que se agrega y se extraer el ï¿½ltimo siempre (LIFO)
 		 * 
 		 * 
 		 */
