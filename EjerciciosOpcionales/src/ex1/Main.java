@@ -106,12 +106,12 @@ public class Main {
 		 * realitzen moltes insercions i aquestes es produeixen sempre per
 		 * posició absoluta. 
 		 * 
-		 * ArrayList
+		 * linkedlist
 		 * 
 		 * - Una llista en la que es volen eliminar elements
 		 * sempre en comparació un altre element donat 
 		 * 
-		 * ArrayList
+		 * linkedlist
 		 * 
 		 * - Una llista en la què
 		 * constanment accedirem als elements per posició absoluta.
